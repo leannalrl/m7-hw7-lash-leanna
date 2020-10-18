@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+	text-align:center;
+  background-color: seashell;
+}
+
+.jumbotron{
+  background-image: url(images/beach.jpg);
+  height: 60vh;
+}
+
+header{
+  padding-top: 4%;
+  padding-bottom: 2%;
+  font-size: 1.5rem;
+  color: saddlebrown;
+}
+
+main{
+	padding-bottom: 3%;
+  font-size: 1.2rem;
+  color: saddlebrown;
+}
+
+footer{
+  background-color: burlywood;
+  padding: 1%;
+  text-align: center;
+  margin-top: 3%;
+  color: seashell;
+}
+
+#container {
+	border-radius: 25px;
+	padding: 2%;
+	width: 85%;
+	margin: auto;
+	max-width: 1500px;
+}
