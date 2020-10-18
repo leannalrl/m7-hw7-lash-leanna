@@ -11,6 +11,10 @@ xmlhttp.onreadystatechange = function() {
         var city = document.createTextNode(apiResult.name);
 
         newsTextContainer[0].appendChild(city);
+
+        var forcastMessageText = document.createTextNode(apiResult.weather[0].description);
+
+        newsTextContainer[1].appendChild(forcastMessageText);
     }
 };
 xmlhttp.open('GET', 'http://api.openweathermap.org/data/2.5/weather?q=34677,us&appid=6efff70fe1477748e31c17d1c504635f', true);
